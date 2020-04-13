@@ -1,0 +1,7 @@
+# ignore all logs and database files.
+*.log
+*.sql
+*.sqlite
+
+# ignore configs
+wp-config.php
