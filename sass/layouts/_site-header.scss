@@ -1,0 +1,30 @@
+.site-header {
+    padding: 15px 25px 0;
+}
+
+.site-branding {
+    text-align: center;
+
+    .custom-logo {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+.site-title {
+    font-size: 2em;
+    margin-bottom: unset;
+    
+    
+    a {
+        color: $color__primary;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+.site-description {
+    margin-top: unset;
+    font-style: italic;
+    color: $color__accent;
+}
