@@ -1,6 +1,6 @@
 .main-navigation {
 	display: block;
-	width: 100%;
+	text-align: center;
 
 	ul {
 		display: none;
@@ -51,21 +51,32 @@
 
 	li {
 		position: relative;
+		margin: 0 5px;
 
 		&:hover > a,
 		&.focus > a {
+			@include hover-item;
 		}
 	}
 
 	a {
 		display: block;
 		text-decoration: none;
+		padding: 10px 20px;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.menu {
+		display: inline-block;
 	}
 
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
+		@include hover-item;
 	}
 }
 

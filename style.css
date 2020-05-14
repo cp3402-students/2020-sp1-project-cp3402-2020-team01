@@ -650,7 +650,7 @@ textarea {
 --------------------------------------------- */
 .main-navigation {
   display: block;
-  width: 100%;
+  text-align: center;
 }
 .main-navigation ul {
   display: none;
@@ -683,11 +683,33 @@ textarea {
 }
 .main-navigation li {
   position: relative;
+  margin: 0 5px;
+}
+.main-navigation li:hover > a, .main-navigation li.focus > a {
+  background-color: #dada00;
+  color: #fff;
+  border-radius: 4px;
 }
 .main-navigation a {
   display: block;
   text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+.main-navigation .menu {
+  display: inline-block;
+}
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_ancestor > a,
+.main-navigation .current-menu-ancestor > a {
+  background-color: #dada00;
+  color: #fff;
+  border-radius: 4px;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
