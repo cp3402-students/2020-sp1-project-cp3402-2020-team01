@@ -1,9 +1,9 @@
 .main-navigation {
 	display: block;
 	text-align: center;
-	border-bottom: 2px $color__accent solid;
+	border-bottom: 4px $color__accent solid;
 	margin-top: 15px;
-	margin-left: 200px;
+	margin-left: $size__site-logo-margin;
 
 	ul {
 		display: none;
@@ -54,7 +54,7 @@
 
 	li {
 		position: relative;
-		margin: 0 5px;
+		margin: 5px 5px;
 
 		&:hover > a,
 		&.focus > a {
@@ -65,14 +65,14 @@
 	a {
 		display: block;
 		text-decoration: none;
-		padding: 10px 20px;
-		font-size: 1.25em;
-		font-weight: bold;
+		padding: 5px 20px;
+		font-size: 1.20em;
+		color: $color__primary;
 		text-transform: uppercase;
 	}
 
 	.menu {
-		display: inline-block;
+		display: inline-flex;
 	}
 
 	.current_page_item > a,

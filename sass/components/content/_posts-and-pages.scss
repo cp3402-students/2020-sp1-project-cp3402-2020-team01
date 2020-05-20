@@ -7,6 +7,18 @@
 	margin: 0 0 1.5em;
 }
 
+.page {
+	h1 {
+		color: $color__accent;
+		text-shadow: 
+			-1px 0 $color__accent-alternate, 
+			0 1px $color__accent-alternate, 
+			1px 0 $color__accent-alternate, 
+			0 -1px $color__accent-alternate;
+		text-align: center;
+	}
+}
+
 .updated:not(.published) {
 	display: none;
 }
