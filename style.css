@@ -77,6 +77,7 @@ body {
  */
 main {
   display: block;
+  clear: both;
 }
 
 /**
@@ -616,20 +617,37 @@ textarea {
 # Layouts
 --------------------------------------------------------------*/
 .site-header {
-  padding: 15px 25px 0;
+  padding: 15px 0 0;
+  background-color: #fff;
 }
 
 .site-branding {
   text-align: center;
 }
+.site-branding .custom-logo-link {
+  background-color: #fff;
+  float: left;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
 .site-branding .custom-logo {
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 200px;
+  max-height: 200px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
 }
 
 .site-title {
   font-size: 2em;
+  clear: none;
+  margin-top: unset;
   margin-bottom: unset;
+  margin-left: 200px;
 }
 .site-title a {
   color: #000;
@@ -641,6 +659,7 @@ textarea {
   margin-top: unset;
   font-style: italic;
   color: #dada00;
+  margin-left: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -651,6 +670,9 @@ textarea {
 .main-navigation {
   display: block;
   text-align: center;
+  border-bottom: 2px #dada00 solid;
+  margin-top: 15px;
+  margin-left: 200px;
 }
 .main-navigation ul {
   display: none;

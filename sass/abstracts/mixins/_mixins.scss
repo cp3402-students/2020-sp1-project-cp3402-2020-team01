@@ -16,3 +16,11 @@
 @mixin column-width($numberColumns: 3) {
 	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
 }
+
+// -- Set transform
+@mixin compat-translate($value) {
+	transform: $value;
+	-webkit-transform: $value;
+	-o-transform: $value;
+	-moz-transform: $value;
+}

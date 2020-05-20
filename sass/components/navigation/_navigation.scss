@@ -1,6 +1,9 @@
 .main-navigation {
 	display: block;
 	text-align: center;
+	border-bottom: 2px $color__accent solid;
+	margin-top: 15px;
+	margin-left: 200px;
 
 	ul {
 		display: none;

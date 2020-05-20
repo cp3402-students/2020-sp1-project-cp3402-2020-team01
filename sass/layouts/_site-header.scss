@@ -1,19 +1,34 @@
 .site-header {
-    padding: 15px 25px 0;
+    padding: 15px 0 0;
+    background-color: $color__background-header;
 }
 
 .site-branding {
     text-align: center;
 
+    .custom-logo-link {
+        background-color: $color__background-header;
+        float: left;
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
     .custom-logo {
-        max-width: 250px;
-        max-height: 250px;
+        max-width: 200px;
+        max-height: 200px;
+        position: absolute;
+        top: 50%;
+        @include compat-translate(translate(-50%, -50%));
     }
 }
 
 .site-title {
     font-size: 2em;
+    clear: none;
+    margin-top: unset;
     margin-bottom: unset;
+    margin-left: 200px;
     
     
     a {
@@ -27,4 +42,5 @@
     margin-top: unset;
     font-style: italic;
     color: $color__accent;
+    margin-left: 200px;
 }
