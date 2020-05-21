@@ -667,6 +667,19 @@ main {
   padding: 15px;
 }
 
+.site-footer {
+  background-color: #fff;
+  border-top: 4px #dada00 solid;
+}
+.site-footer .site-info {
+  padding: 2.5em 0;
+  text-align: center;
+  font-weight: 700;
+}
+.site-footer .site-info * {
+  margin-right: 5px;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -799,6 +812,13 @@ main {
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
+}
+
+.entry-content {
+  padding: 1px 15px;
+  margin: 0 10%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page-links {
