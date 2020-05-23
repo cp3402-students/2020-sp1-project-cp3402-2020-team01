@@ -519,13 +519,13 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-  color: #4169e1;
+  color: #e8c14c;
 }
 a:visited {
-  color: #800080;
+  color: #e8c14c;
 }
 a:hover, a:focus, a:active {
-  color: #191970;
+  color: #dada00;
 }
 a:focus {
   outline: thin dotted;
@@ -627,6 +627,7 @@ textarea {
 .site-branding .custom-logo-link {
   background-color: #fff;
   position: fixed;
+  top: 0;
   left: 0;
   width: 200px;
   height: 200px;
@@ -658,7 +659,7 @@ textarea {
 .site-description {
   margin-top: unset;
   font-style: italic;
-  color: #dada00;
+  color: #e8c14c;
   margin-left: 200px;
 }
 
@@ -669,7 +670,7 @@ main {
 
 .site-footer {
   background-color: #fff;
-  border-top: 4px #dada00 solid;
+  border-top: 4px #e8c14c solid;
 }
 .site-footer .site-info {
   padding: 2.5em 0;
@@ -688,7 +689,7 @@ main {
 .main-navigation {
   display: block;
   text-align: center;
-  border-bottom: 4px #dada00 solid;
+  border-bottom: 4px #e8c14c solid;
   margin-top: 15px;
   margin-left: 200px;
 }
@@ -726,7 +727,7 @@ main {
   margin: 5px 5px;
 }
 .main-navigation li:hover > a, .main-navigation li.focus > a {
-  background-color: #dada00;
+  background-color: #e8c14c;
   color: #fff;
   border-radius: 3px;
 }
@@ -745,7 +746,7 @@ main {
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a,
 .main-navigation .current-menu-ancestor > a {
-  background-color: #dada00;
+  background-color: #e8c14c;
   color: #fff;
   border-radius: 3px;
 }
@@ -799,7 +800,7 @@ main {
 }
 
 .page h1 {
-  color: #dada00;
+  color: #e8c14c;
   text-shadow: -1px 0 #929200, 0 1px #929200, 1px 0 #929200, 0 -1px #929200;
   text-align: center;
 }
