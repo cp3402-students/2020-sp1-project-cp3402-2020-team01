@@ -1,8 +1,6 @@
 === ClubMe ===
 
-
-
-Contributors: automattic
+Contributors: CP3402-A2-Team01, automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 Requires at least: 4.5
@@ -16,7 +14,9 @@ A starter theme called ClubMe.
 
 == Description ==
 
-Description
+ClubMe is a custom designed theme aimed at communities, clubs and organisationations that would like to show a crisp, clean take on their services.
+
+Built from the start theme by Underscores (_s), ClubMe uses a simple primary, secondary and accent color design coupled with SASS preprocessing to allow for easy styling of any and all aspects of your site.
 
 == Installation ==
 
@@ -32,8 +32,11 @@ ClubMe includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
-= 1.0 - May 12 2015 =
-* Initial release
+= 0.1 - May 11 2020 =
+* Initial creation from starter theme, _s.
+
+= 1.0 - May 20 2020 =
+* First version of ClubMe
 
 == Credits ==
 
