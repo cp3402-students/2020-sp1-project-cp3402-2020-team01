@@ -13,7 +13,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-		<?php if (get_theme_mod( 'toggle_contact', false ) ): ?>
+		<?php if (get_option( 'toggle_contact' ) == '1'): ?>
 			<div class="site-contacts">
 				<span><?php echo get_theme_mod( 'contact_name', '' ); ?></span>
 				<span class="sep"> | </span>

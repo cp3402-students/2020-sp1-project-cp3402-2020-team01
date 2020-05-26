@@ -29,6 +29,18 @@
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
+			if (get_option( 'toggle_cta' ) == '1'): 
+
+				$cta_link = get_theme_mod( 'cta_page_dropdown', esc_url( home_url( '/' ) ));
+				$cta_name = get_theme_mod( 'cta_name', 'CALL TO ACTION' );
+			?>
+
+				<a class='cta' href="<?php echo get_page_link($cta_link); ?>">
+				<button><?php echo $cta_name; ?></button></a>
+
+			<?php endif; ?>
+
+			<?php
 			if ( is_front_page() && is_home() ) :
 				?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

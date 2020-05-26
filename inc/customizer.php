@@ -32,6 +32,71 @@ function clubme_customize_register( $wp_customize ) {
 		);
 	}
 
+	// -- Add Call To Action section to define the button.
+	$wp_customize->add_section( 'cta_section',
+		array(
+			'title' => __( 'Call To Action' ),
+			'description' => esc_html__( 'Define your Call To Action button' ),
+			'priority' => 155
+		)
+	);
+
+	$wp_customize->add_setting( 'toggle_cta',
+		array(
+			'default' => 0,
+			'transport' => 'refresh',
+			'type' => 'option'
+		)
+	);
+
+	$wp_customize->add_control( 'toggle_cta',
+		array(
+			'label' => __( 'Display Call To Action button', 'ephemeris' ),
+			'section'  => 'cta_section',
+			'priority' => 5,
+			'type'=> 'checkbox'
+		)
+	);
+
+	$wp_customize->add_setting( 'cta_name',
+		array(
+			'default' => '',
+			'transport' => 'refresh'
+		)
+	);
+
+	$wp_customize->add_control( 'cta_name',
+		array(
+			'label' => __( 'CTA Display Text' ),
+			'section' => 'cta_section',
+			'priority' => 10,
+			'type' => 'text',
+			'input_attrs' => array(
+				'placeholder' => __( 'CALL TO ACTION' )
+			),
+		)
+	);
+
+
+	$wp_customize->add_setting( 'cta_page_dropdown',
+		array(
+			'default' => 1,
+			'transport' => 'refresh'
+		)
+	);
+
+	$wp_customize->add_control( 'cta_page_dropdown',
+		array(
+			'label' => __( 'CTA Page', 'ephemeris' ),
+			'description' => esc_html__( 'Select the page this button will redirect to' ),
+			'section'  => 'cta_section',
+			'priority' => 15,
+			'type'=> 'dropdown-pages'
+		)
+	);
+
+	
+
 	// -- Add Footer section to customise Contact details.
 	$wp_customize->add_section( 'footer_controls_section',
 		array(
@@ -43,8 +108,9 @@ function clubme_customize_register( $wp_customize ) {
 
 	$wp_customize->add_setting( 'toggle_contact',
 		array(
-			'default' => 1,
-			'transport' => 'refresh'
+			'default' => 0,
+			'transport' => 'refresh',
+			'type' => 'option'
 		)
 	);
 

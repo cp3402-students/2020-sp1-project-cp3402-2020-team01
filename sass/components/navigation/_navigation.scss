@@ -18,6 +18,7 @@
 			top: 100%;
 			left: -999em;
 			z-index: 99999;
+			background-color: $color__background-header;
 
 			ul {
 				left: -999em;
@@ -49,12 +50,17 @@
 		li:hover > ul,
 		li.focus > ul {
 			left: auto;
+			display: inline;
+			@include compat-translate(translateX(-50%));
+			border-bottom: 4px $color__accent solid;
+
 		}
 	}
 
 	li {
 		position: relative;
 		margin: 5px 5px;
+		background-color: $color__background-header;
 
 		&:hover > a,
 		&.focus > a {

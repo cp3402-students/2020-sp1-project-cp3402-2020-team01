@@ -22,6 +22,27 @@
         top: 50%;
         @include compat-translate(translate(-50%, -50%));
     }
+
+    .cta {
+        position: fixed;
+        top: $size__site-logo-margin + 10px;
+        left: 0;
+        width: $size__site-logo-margin;
+        padding: 5px;
+
+        button {
+            cursor: pointer;
+            width: 100%;
+            height: 75px;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 15px 0;
+            border: 2px $color__accent-alternate solid;
+            color: $color__background-header;
+            background-color: $color__accent;
+            text-transform: uppercase;
+        }
+    }
 }
 
 .site-title {

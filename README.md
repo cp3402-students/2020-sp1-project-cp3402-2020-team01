@@ -54,6 +54,8 @@ sass --watch sass/style.scss style.css
 - `Set Logo` - Appearance -> Customize -> Site Identity: Set a logo image (Max dimensions 200px)
 - `Set Site Icon` - Appearance -> Customize -> Site Identity: Set a site icon
 - `Site Title/Description` - Appearance -> Customize -> Site Identity: Name your site and tagline and check 'Display Site Title and Tagline' (Optional)
+- `Call to Action Button` - Appearance -> Customize -> Call to Action: Name your button and set a page to link to and make sure 'Display Call To Action button' is checked (Optional)
+- `Contact Details` - Appearance -> Customize -> Footer Settings: Set your site's contact details and make sure 'Display footer contact information' is checked (Optional)
 - `Navigation Menu` - Appearance -> Menus: Create a new menu, save and check the 'Primary' checkbox under Menu Settings.
 - `Home Page` - Appearance -> Customize -> Homepage Settings: Check 'A static page' and choose your desired page to be your static front page.
 - `Background Color` - Appearance -> Customize -> Colors: Set your background color.
