@@ -3,7 +3,7 @@ ClubMe
 
 ClubMe is a custom designed theme aimed at communities, clubs and organisationations that would like to show a crisp, clean take on their services.
 
-Built from the start theme by Underscores (_s), ClubMe uses a simple primary, secondary and accent color design coupled with SASS preprocessing to allow for easy styling of any and all aspects of your site.
+Built from the start theme by Underscores(_s), ClubMe uses a simple primary, secondary and accent color design coupled with SASS preprocessing to allow for easy styling of any and all aspects of your site.
 
 Licensed under GPLv2 or later.
 
