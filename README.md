@@ -44,7 +44,6 @@ sass --watch sass/style.scss style.css
 
 **Warning: If you run these commands, it WILL overwrite your current CSS. Do not amend the style.css directly. Use the below commands.**
 
-
 ### Screenshot Imitation
 
 "I want it to look like the screenshot!", I hear you say. The following sections need to be configured to set the theme in it's intended way. 
