@@ -62,6 +62,17 @@ sass --watch sass/style.scss style.css
 - `Widget Free` - Appearance -> Customize -> Widgets: Remove all widgets from the Home page.
 
 
+### Site Maintenance
+
+To maintain the site this theme is currently being utilised by. The following information should be noted:
+
+- `Menu Navigation` - Appearance -> Menus: This site uses the menu structure of WordPress and does not add any pages automatically.
+- `Gallery Images` - Gallery -> Manage Galleries: Using the NextGEN Gallery plugin, we are able to maintain a large selection of imagery by folder which is then displayed on the "Gallery" page.
+- `Bands` - Pages -> All Pages: Using child pages of the "Bands" page, each band has its own dedicated blurb about them.
+- `Upcoming Events` - Posts -> All Posts: Displayed on Front and "News/Events" page, any new posts that are created will automatically update the site. Please note there is a maximum of four visible on the Front page at any time.
+- `Membership Forms` - WPForms: Using the WPForms plugin, the site holds a "Jazz Club Townsville Membership Form" which is the main form displayed when clicking the "Join Today" CTA button on the site. This form is embedded in the "Membership" page as the link to the plugin.  
+
+
 Credits
 ---------------
 * Based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
